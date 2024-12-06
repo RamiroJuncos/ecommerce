@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Catalog />} />
+        <Route path="/ecommerce" element={<Catalog />} />
         <Route path="/product">{/* RUTA PARA MOSTRAR UN PRODUCTO EN PARTICULAR */}
           <Route path=":id" /* EL ID ES EL PARAMETRO */ element={<ProductDetail />} />
         </Route>
